@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "Tom & Derry",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Tom & Derry Main Site",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Thomas Maximilian Lener <tom@tomderry.com>",
   "dependencies": {
     "gatsby": "^4.12.1",
     "gatsby-plugin-gatsby-cloud": "^4.12.1",
