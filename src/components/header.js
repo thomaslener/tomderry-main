@@ -1,12 +1,12 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
+            marginBottom: `1.45rem`,
     }}
   >
     <div
@@ -20,11 +20,18 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `white`,
+
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+        <StaticImage
+          src="../images/td-color.png"
+          width={100}
+          quality={95}
+          formats={["auto", "webp", "avif"]}
+          alt="Tom & Derry Logo"
+          style={{ marginBottom: `1.45rem` }}
+        />
         </Link>
       </h1>
     </div>
