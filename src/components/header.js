@@ -6,7 +6,7 @@ import { StaticImage } from "gatsby-plugin-image"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-
+      backgroundColor: `white`,
     }}
   >
     <div
@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
         margin: `0 auto`,
         maxWidth: 960,
         paddingTop: `1.45rem`,
-        paddingBottom: `5.00rem`,
+        align: `center`,
       }}
     >
       <h1 style={{ margin: 0 }}>

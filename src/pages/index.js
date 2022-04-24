@@ -26,7 +26,16 @@ const IndexPage = () => {
 return (
   <Layout>
     <Seo title="Tom & Derry" />
-        <h1 align="center">Nur gemeinsam ist Bewegung möglich.</h1>
+    <div align="center" style={{marginTop: 50}}>
+    <StaticImage
+      src="../images/title.svg"
+      width={600}
+      quality={95}
+      formats={["auto", "webp", "avif"]}
+      alt="Tom & Derry Logo"
+
+      />
+    </div>
     <div className="animation-container" ref={animationContainer} />
 
 
