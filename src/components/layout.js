@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
             marginTop: `2rem`,
           }}
         >
-          © {new Date().getFullYear()}, Tom & Derry OG
+
         </footer>
       </div>
     </>
@@ -51,3 +51,4 @@ Layout.propTypes = {
 }
 
 export default Layout
+// © {new Date().getFullYear()}, Tom & Derry OG

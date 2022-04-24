@@ -6,14 +6,15 @@ import { StaticImage } from "gatsby-plugin-image"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-            marginBottom: `1.45rem`,
+
     }}
   >
     <div
       style={{
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        paddingTop: `1.45rem`,
+        paddingBottom: `5.00rem`,
       }}
     >
       <h1 style={{ margin: 0 }}>
